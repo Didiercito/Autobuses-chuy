@@ -1,6 +1,6 @@
-import { UserCredentials } from "../../domain/entities/userCredentials";
-import { UserRepository } from "../../domain/interface/userRepository";
-import { UserValidator } from "../../domain/validators/userValidate";
+import { UserCredentials } from "../../user/domain/entities/userCredentials";
+import { UserRepository } from "../../user/domain/interface/userRepository";
+import { UserValidator } from "../../user/domain/validators/userValidate";
 
 export class UserCase {
     constructor(readonly userRepository: UserRepository) {}
